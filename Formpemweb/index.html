@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Q Bank Form</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <section class="container">
+    <img src="Q Bank small3.png" alt="Q bank">
+
+    <div class="orange">
+      <header>Formulir Pembukaan Rekening Nasabah</header>
+    </div>
+
+    <form action="#" class="form">
+      <div class="part-box">
+        <h4>DATA PRIBADI PEMEGANG REKENING</h4>
+      </div>
+
+      <div class="input-box">
+        <label for="name">Nama Nasabah</label>
+        <input type="text" id="name" placeholder="Masukkan nama lengkap" required />
+      </div>
+
+      <div class="gender-box">
+        <h3>Jenis Kelamin</h3>
+        <div class="gender-option">
+          <div class="gender">
+            <input type="radio" id="check-male" name="gender" />
+            <label for="check-male">Laki-Laki</label>
+          </div>
+          <div class="gender">
+            <input type="radio" id="check-female" name="gender" />
+            <label for="check-female">Perempuan</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="nationality-box">
+        <h3>Kewarganegaraan</h3>
+        <div class="nationality-option">
+          <div class="nationality">
+            <input type="radio" id="check-wni" name="nationality" />
+            <label for="check-wni">WNI</label>
+          </div>
+          <div class="nationality">
+            <input type="radio" id="check-wna" name="nationality" />
+            <label for="check-wna">WNA</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="input-box">
+        <label for="numberidentity">Nomor Kartu Identitas</label>
+        <input type="text" id="numberidentity" placeholder="Masukkan nomor kartu identitas" required />
+      </div>
+
+      <div class="input-box">
+        <label>Agama</label>
+        <div class="select-box">
+          <select>
+            <option hidden>Agama</option>
+            <option>Islam</option>
+            <option>Kristen</option>
+            <option>Katolik</option>
+            <option>Konghucu</option>
+            <option>Hindu</option>
+            <option>Buddha</option>
+            <option>Lainnya</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="input-box">
+        <label for="mothername">Nama Ibu Kandung</label>
+        <input type="text" id="mothername" placeholder="Masukkan nama ibu" required />
+      </div>
+
+      <div class="input-box">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Masukkan email" required />
+      </div>
+
+      <div class="input-box">
+        <label for="number">Nomor Telepon</label>
+        <input type="number" id="number" placeholder="Masukkan nomor telepon" required />
+      </div>
+
+      <div class="column">
+        <div class="input-box">
+          <label for="date">Tanggal Lahir</label>
+          <input type="date" id="date" required />
+        </div>
+        <div class="input-box">
+          <label for="place">Tempat Lahir</label>
+          <input type="text" id="place" placeholder="Masukkan tempat lahir" required />
+        </div>
+      </div>
+
+      <div class="input-box address">
+        <label for="address">Alamat</label>
+        <textarea id="address" placeholder="Masukkan alamat" required></textarea>
+        <div class="column">
+          <input type="text" placeholder="Masukkan nama kota" required />
+          <input type="number" placeholder="Masukkan kode pos" required />
+        </div>
+        <div class="column">
+          <div class="select-box">
+            <select>
+              <option hidden>Negara</option>
+              <option>Indonesia</option>
+              <option>Amerika</option>
+              <option>Inggris</option>
+              <option>Arab</option>
+              <option>Jepang</option>
+              <option>China</option>
+              <option>Afrika</option>
+              <option>Lainnya</option>
+            </select>
+          </div>
+          <input type="text" placeholder="Masukkan nama negara jika memilih lainnya" />
+        </div>
+      </div>
+
+      <div class="input-box">
+        <label for="npwp">Nomor NPWP</label>
+        <input type="number" id="npwp" placeholder="Masukkan nomor NPWP" required />
+      </div>
+
+      <div class="married-box">
+        <h3>Status Perkawinan</h3>
+        <div class="married-option">
+          <div class="married">
+            <input type="radio" id="check-single" name="married" />
+            <label for="check-single">Belum Menikah</label>
+          </div>
+          <div class="married">
+            <input type="radio" id="check-married" name="married" />
+            <label for="check-married">Sudah Menikah</label>
+          </div>
+          <div class="married">
+            <input type="radio" id="check-divorced" name="married" />
+            <label for="check-divorced">Janda/Duda</label>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="part-box">
+        <h4>PERMOHONAN PEMBUKAAN REKENING</h4>
+      </div>
+
+      <div class="product-box">
+        <h3>Produk</h3>
+        <div class="product-option">
+          <div class="product">
+            <input type="radio" id="check-deb" name="product" />
+            <label for="check-deb">Debit</label>
+          </div>
+          <div class="product">
+            <input type="radio" id="check-credit" name="product" />
+            <label for="check-credit">Kredit</label>
+          </div>
+          <div class="product">
+            <input type="radio" id="check-tab" name="product" />
+            <label for="check-tab">Tabungan</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="source-box">
+        <h3>Sumber pendapatan</h3>
+        <div class="source-option">
+          <div class="source">
+            <input type="radio" id="check-sal" name="source" />
+            <label for="check-sal">Gaji</label>
+          </div>
+          <div class="source">
+            <input type="radio" id="check-results" name="source" />
+            <label for="check-results">Hasil Usaha</label>
+          </div>
+          <div class="source">
+            <input type="radio" id="check-inher" name="source" />
+            <label for="check-inher">Warisan</label>
+          </div>
+          <div class="source">
+            <input type="radio" id="check-pension" name="source" />
+            <label for="check-pension">Dana Pensiun</label>
+          </div>
+          <div class="source">
+            <input type="radio" id="check-invest" name="source" />
+            <label for="check-invest">Hasil Investasi</label>
+          </div>
+          <div class="source">
+            <input type="radio" id="check-fam" name="source" />
+            <label for="check-fam">Suami/Istri/Orangtua</label>
+          </div>
+          <div class="source">
+            <input type="radio" id="check-etc" name="source" />
+            <label for="check-etc">Lainnya</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="input-box">
+        <label>Rentang Pendapatan</label>
+        <div class="select-box">
+          <select>
+            <option hidden> </option>
+            <option>Kurang dari Rp 50.000</option>
+            <option>Rp 50.000 - Rp 500.000</option>
+            <option>Rp 500.001 - Rp 1.000.000</option>
+            <option>Rp 1.000.001 - Rp 5.000.000</option>
+            <option>Rp 5.000.001 - Rp 10.000.000</option>
+            <option>Lebih dari Rp 10.000.000</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="input-box">
+        <label for="name">Nominal Penempatan Awal</label>
+        <input type="number" id="name" placeholder="Rp" required />
+      </div>
+      <br>
+      <br>
+
+      <p>Syarat dan Ketentuan</p>
+      <br>
+      <li>Saya/Kami berwenang penuh untuk menandatangani formulir ini berikut dokumen lain yang berkaitan
+        dengannya pada PT Q Bank</li>
+      <br>
+      <li>Saya/Kami berarti nasabah perorangan atau nasabah badan usaha, sesuai konteksnya
+        (selanjutnya disebut "Nasabah").</li>
+      <br>
+      <li>Nasabah wajib memberikan seluruh data dan dokumen yang diperlukan untuk
+        tujuan pembukaan rekening (-rekening) pada Q Bank. Nasabah dengan
+        ini menyatakan dan menjamin bahwa informasi yang Nasabah berikan dalam Formulir
+        ini dan segala dokumen yang menjadi lampirannya yang merupakan satu kesatuan dan
+        bagian yang tidak terpisahkan dengan Formulir ini adalah lengkap dan benar.
+        Dan Nasabah berjanji akan segera memberikan pemberitahuan secara tertulis kepada Q Bank
+        setiap terjadi perubahan atas informasi dan/atau dokumen-dokumen tersebut. Namun demikian
+        Nasabah setuju bahwa Q Bank berhak untuk memeriksa dan melakukan verifikasi atas kebenaran,
+        kelengkapan dan keaslian setiap data dan informasi tersebut melalui sarana dan dari sumber yang
+        dipandang sesuai oleh Q Bank. Sehubungan dengan itu, selanjutnya Nasabah setuju bahwa sampai
+        pada saat Q Bank menerima surat pemberitahuan perubahan tersebut, maka perubahan-perubahan yang
+        terjadi tidak mengikat dan oleh karenanya tidak memiliki akibat hukum apapun terhadap Q Bank.
+        Selama Nasabah belum melengkapi data dan/atau dokumen tersebut, maka Nasabah dengan ini setuju Q Bank
+        berhak untuk melakukan tindakan-tindakan yang dianggap perlu olehnya, termasuk untuk membatasi transaksi
+        (debit/kredit) dan/atau menutup rekening(-rekening) tersebut sepanjang dimungkinkan menurut peraturan
+        hukum yang berlaku di Indonesia.</li>
+      <br>
+      <li>Q Bank telah memberi Nasabah informasi yang layak dan cukup atas fitur dan karakteristik
+        layanan perbankan Q Bank termasuk manfaat, resiko dan biaya-biaya yang melekat padanya dan
+        Nasabah telah memahami fitur dan karakteristik tersebut serta menerima seluruh akibat yang mungkin
+        timbul daripadanya.</li>
+      <br>
+      <li>Nasabah dengan ini memberi kuasa kepada Q Bank untuk mendebit rekening(-rekening) Nasabah atas
+        setiap biaya yang timbul berkaitan dengan pembukaan dan penatausahaan rekening(-rekening) Nasabah serta
+        atas penggunaan layanan perbankan oleh Nasabah yang disediakan oleh Q Bank dari waktu ke waktu.</li>
+      <br>
+      <li>Nasabah dengan ini setuju bahwa rekening berikutnya dapat dibuka melalui Internet Banking atau media
+        lainnya sesuai dengan kebijakan yang diatur oleh Q Bank dari waktu ke waktu. </li>
+      <br>
+      <br>
+      <div class="agreement-box">
+        <div class="agreement-option">
+          <div class="agreement">
+            <input type="checkbox" id="check-agree" name="agreement" />
+            <label for="check-agree">Saya Menyetujui Syarat dan Ketentuan yang Berlaku</label>
+          </div>
+        </div>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,278 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #f9daad;
+}
+.container{
+  position: relative;
+  max-width: 2000px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.container img{
+  max-width: 70px; 
+  float: right; 
+  margin-top: 12px;
+  margin-right: 12px;
+}
+.container .orange{
+  max-width: 4000px;
+  width: 94.55%;
+  background: orange;
+  padding: 25px;
+}
+.container header {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500; 
+}
+.container .part-box{
+  max-width: 2000px;
+  width: 100%;
+  background: #f9daad;
+  padding: 5px;
+}
+.container h4 {
+  font-weight: 500;
+  text-align: center;
+}
+.container h3 {
+  color: #333;
+}
+.container p{
+  color: #333;
+}
+.container .form {
+  margin-top: 30px;
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+.input-box label {
+  color: #333;
+}
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.input-box textarea { 
+  resize: none; 
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 8px 15px;
+  height: 100px; 
+  width: 100%;
+}
+
+.input-box textarea:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.form .column {
+  display: flex;
+  column-gap: 15px;
+}
+.form .gender-box {
+  margin-top: 20px;
+}
+.gender-box h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.form :where(.gender-option, .gender) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.form .gender {
+  column-gap: 5px;
+}
+.gender input {
+  accent-color: orange;
+}
+.form :where(.gender input, .gender label) {
+  cursor: pointer;
+}
+.gender label {
+  color: #707070;
+}
+.form :where(.agreement-option, .agreement) {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  flex-wrap: wrap;
+}
+.nationality label {
+  color: #707070;
+}
+.form .nationality-box {
+  margin-top: 20px;
+}
+.nationality-box h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.form :where(.nationality-option, .nationality) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.form .nationality {
+  column-gap: 5px;
+}
+.nationality input {
+  accent-color: orange;
+}
+.form .product-box {
+  margin-top: 20px;
+}
+.product-box h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.form :where(.product-option, .product) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.form .product {
+  column-gap: 5px;
+}
+.product input {
+  accent-color: orange;
+}
+.form :where(.product input, .product label) {
+  cursor: pointer;
+}
+.product label {
+  color: #707070;
+}
+.form .source-box {
+  margin-top: 20px;
+}
+.source-box h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.form :where(.source-option, .source) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.form .source {
+  column-gap: 5px;
+}
+.source input {
+  accent-color: orange;
+}
+.form :where(.source input, .source label) {
+  cursor: pointer;
+}
+.source label {
+  color: #707070;
+}
+.form .married-box {
+  margin-top: 20px;
+}
+.married-box h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.form :where(.married-option, .married) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.form .married {
+  column-gap: 5px;
+}
+.married input {
+  accent-color: orange;
+}
+.form :where(.married input, .married label) {
+  cursor: pointer;
+}
+.married label {
+  color: #707070;
+}
+.address :where(input, .select-box) {
+  margin-top: 15px;
+}
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #707070;
+  font-size: 1rem;
+}
+.form button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: orange;
+}
+.form button:hover {
+  background: #f9daad;
+  color: black;
+}
+
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
+  }
+  .form :where(.gender-option, .gender) {
+    row-gap: 15px;
+  }
+}
